@@ -16,6 +16,8 @@ public class MergeStringAlternatively {
         System.out.println("Actual: "+ res);
         System.out.println("Exp: "+ exp);
 
+        assert res.equals(exp);
+
     }
 
     private static String mergeString(String word1, String word2) {
